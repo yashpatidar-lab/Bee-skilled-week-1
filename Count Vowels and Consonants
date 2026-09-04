@@ -1,0 +1,13 @@
+s = input("Enter string: ")
+
+v = 0
+c = 0
+
+for x in s:
+    if x in "aeiou":
+        v = v + 1
+    elif x.isalpha():
+        c = c + 1
+
+print("Vowels:", v)
+print("Consonants:", c)
